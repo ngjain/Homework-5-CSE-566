@@ -1,0 +1,810 @@
+                      Report Banner - Edit rsm.cfg File
+
+           Resource Standard Metrics (TM) for C, C++, C# and Java
+                   Version 7.75 - mSquaredTechnologies.com
+
+  License Type: Shareware Evaluation License
+  Licensed To : Shareware End User - Distribute Freely
+  License No. : SW1380                          License Date: Dec 05, 1998
+  Build Date  : Sep  2 2009                         Run Date: Apr 17, 2020
+  (C)1996-2009 M Squared Technologies LLC
+  ________________________________________________________________________
+
+  License File: C:\Program Files (x86)\MSquared\M2 RSM\rsm.lic
+  Config. File: C:\Program Files (x86)\MSquared\M2 RSM\rsm.cfg
+  Command Line: -OC:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566
+                \src_complexity.txt -c -SClass Inheritance Tree -FC:\Users
+                \nayan\M2 RSM Wizard\input\rsm_file_list.lst 
+
+                           Class Inheritance Tree
+
+                           ~~ Function Metrics ~~
+                          ~~ Complexity Analysis ~~
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\InfoHelpe
+        r.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.InfoHelper.InfoHelper
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 2        eLOC 1        lLOC 0        Comment 0        Lines        2
+
+  Function: com.igormaznitsa.jcp.InfoHelper.getVersion
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.InfoHelper.getCopyright
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.InfoHelper.getSite
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.InfoHelper.getProductName
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeTextForHelpInfo
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 6       Total        7
+  LOC 42       eLOC 36       lLOC 25       Comment 0        Lines       46
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeSpecialVariableReference
+  Parameters: (final JCPSpecialVariableProcessor.NameReferencePair p)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        5
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeCommandLineKeyReference
+  Parameters: (final CommandLineHandler handler)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        5
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeDirectiveReference
+  Parameters: (final AbstractDirectiveHandler directive)
+  Complexity   Param 1       Return 1      Cyclo Vg 6       Total        8
+  LOC 17       eLOC 14       lLOC 11       Comment 0        Lines       18
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeSpecialDirectiveReference
+  Parameters: (final String name, final String reference)
+  Complexity   Param 2       Return 1      Cyclo Vg 1       Total        4
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeOperatorReference
+  Parameters: (final AbstractOperator operator)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        5
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeFunctionReference
+  Parameters: (final AbstractFunction func)
+  Complexity   Param 1       Return 1      Cyclo Vg 5       Total        7
+  LOC 23       eLOC 18       lLOC 13       Comment 0        Lines       25
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeColumns
+  Parameters: (final String name, final String reference, final int firstC
+              olumnWidth)
+  Complexity   Param 3       Return 1      Cyclo Vg 2       Total        6
+  LOC 9        eLOC 7        lLOC 6        Comment 0        Lines        9
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 134      eLOC 108      lLOC 78       Comment 15       Lines      172
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:         13
+  Total Function LOC.....:        123  Total Function Pts LOC :        2.5
+  Total Function eLOC....:         98  Total Function Pts eLOC:        2.0
+  Total Function lLOC....:         69  Total Function Pts lLOC:        1.5
+  Total Function Params .:         10  Total Function Return .:         13
+  Total Cyclo Complexity :         28  Total Function Complex.:         51
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         42  Average Function LOC ..:       9.46
+  Max Function eLOC .....:         36  Average Function eLOC .:       7.54
+  Max Function lLOC .....:         25  Average Function lLOC .:       5.31
+         ------     -----     -----     ------     ------     -----       
+  Max Function Parameters:          3  Avg Function Parameters:       0.77
+  Max Function Returns ..:          1  Avg Function Returns ..:       1.00
+  Max Interface Complex. :          4  Avg Interface Complex. :       1.77
+  Max Cyclomatic Complex.:          6  Avg Cyclomatic Complex.:       2.15
+  Max Total Complexity ..:          8  Avg Total Complexity ..:       3.92
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\In
+               foHelper.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\JCPreproc
+        essor.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.PreprocessingStatistics.Pr
+            eprocessingStatistics
+  Parameters: (final int numberOfPreprocessed, final int numberOfCopied)
+  Complexity   Param 2       Return 1      Cyclo Vg 1       Total        4
+  LOC 4        eLOC 3        lLOC 2        Comment 0        Lines        4
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.PreprocessingStatistics.ge
+            tNumberOfCopied
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.PreprocessingStatistics.ge
+            tNumberOfPreprocessed
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.getCommandLineHandlers
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.getContext
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.JCPreprocessor
+  Parameters: (final PreprocessorContext context)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 4        eLOC 3        lLOC 2        Comment 0        Lines        4
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.execute
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 2       Total        3
+  LOC 16       eLOC 14       lLOC 12       Comment 0        Lines       21
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.processFileExclusion
+  Parameters: (final List<PreprocessingState.ExcludeIfInfo> foundExcludeIf
+              )
+  Complexity   Param 1       Return 1      Cyclo Vg 4       Total        6
+  LOC 18       eLOC 14       lLOC 7        Comment 0        Lines       23
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.val.asBoolean
+  Parameters: ())
+  Complexity   Param 1       Return 1      Cyclo Vg 2       Total        4
+  LOC 6        eLOC 4        lLOC 2        Comment 0        Lines        6
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.processGlobalDirectives
+  Parameters: (final Collection<FileInfoContainer> files)
+  Complexity   Param 1       Return 1      Cyclo Vg 5       Total        7
+  LOC 14       eLOC 10       lLOC 5        Comment 0        Lines       14
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.preprocessFiles
+  Parameters: (final Collection<FileInfoContainer> files)
+  Complexity   Param 1       Return 1      Cyclo Vg 11      Total       13
+  LOC 40       eLOC 28       lLOC 15       Comment 1        Lines       45
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.createDestinationDirectory
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 6       Total        7
+  LOC 19       eLOC 12       lLOC 5        Comment 0        Lines       21
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.findAllFilesToBePreprocess
+            ed
+  Parameters: (final File[] srcDirs)
+  Complexity   Param 1       Return 1      Cyclo Vg 4       Total        6
+  LOC 17       eLOC 13       lLOC 7        Comment 1        Lines       24
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.findAllFiles
+  Parameters: (final File dir)
+  Complexity   Param 1       Return 1      Cyclo Vg 3       Total        5
+  LOC 13       eLOC 9        lLOC 4        Comment 0        Lines       13
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.main
+  Parameters: (final String... args)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 22       eLOC 17       lLOC 12       Comment 0        Lines       28
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.processCommandString
+  Parameters: (final PreprocessorContext context, final String[] originalS
+              trings, final String[] normalizedStrings)
+  Complexity   Param 3       Return 1      Cyclo Vg 7       Total       11
+  LOC 25       eLOC 19       lLOC 13       Comment 0        Lines       28
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.processCfgFiles
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 14      Total       15
+  LOC 56       eLOC 38       lLOC 17       Comment 3        Lines       65
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.printHeader
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        5
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.help
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 2       Total        3
+  LOC 6        eLOC 4        lLOC 1        Comment 0        Lines        7
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 314      eLOC 232      lLOC 126      Comment 26       Lines      402
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:         19
+  Total Function LOC.....:        277  Total Function Pts LOC :        5.9
+  Total Function eLOC....:        200  Total Function Pts eLOC:        4.4
+  Total Function lLOC....:        111  Total Function Pts lLOC:        2.4
+  Total Function Params .:         13  Total Function Return .:         19
+  Total Cyclo Complexity :         68  Total Function Complex.:        100
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         56  Average Function LOC ..:      14.58
+  Max Function eLOC .....:         38  Average Function eLOC .:      10.53
+  Max Function lLOC .....:         17  Average Function lLOC .:       5.84
+         ------     -----     -----     ------     ------     -----       
+  Max Function Parameters:          3  Avg Function Parameters:       0.68
+  Max Function Returns ..:          1  Avg Function Returns ..:       1.00
+  Max Interface Complex. :          4  Avg Interface Complex. :       1.68
+  Max Cyclomatic Complex.:         14  Avg Cyclomatic Complex.:       3.58
+  Max Total Complexity ..:         15  Avg Total Complexity ..:       5.26
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\JC
+               Preprocessor.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src.java
+  ________________________________________________________________________
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.JavaClassOrIn
+            terface
+  Parameters: (ClassOrInterfaceDeclaration typeDec)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 7        eLOC 6        lLOC 5        Comment 0        Lines        7
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.extractFullDe
+            claration
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 2       Total        3
+  LOC 14       eLOC 12       lLOC 3        Comment 3        Lines       15
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getModifiers
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.hasConstructo
+            rs
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.hasMethods
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.hasEnums
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.hasFields
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.hasNestedClas
+            ses
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.hasAnnotation
+            s
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.extractDeclar
+            ation
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 3        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getDeclaratio
+            n
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.addConstructo
+            r
+  Parameters: (JavaConstructor constructor)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.addField
+  Parameters: (JavaField field)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.addEnum
+  Parameters: (JavaEnum javaEnum)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.addMethod
+  Parameters: (JavaMethod method)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.addAnnotation
+  Parameters: (JavaAnnotation annotation)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.addNestedClas
+            sOrInterface
+  Parameters: (JavaClassOrInterface classOrInterface)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getMethods
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getConstructo
+            rs
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getEnums
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getFields
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getAnnotation
+            s
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getNestedClas
+            ses
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getNestedClas
+            sesAsArrayList
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getType
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.toString
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 10       eLOC 9        lLOC 1        Comment 0        Lines       10
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 116      eLOC 88       lLOC 42       Comment 121      Lines      276
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:         26
+  Total Function LOC.....:        100  Total Function Pts LOC :        2.2
+  Total Function eLOC....:         73  Total Function Pts eLOC:        1.7
+  Total Function lLOC....:         32  Total Function Pts lLOC:        0.8
+  Total Function Params .:          7  Total Function Return .:         26
+  Total Cyclo Complexity :         27  Total Function Complex.:         60
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         14  Average Function LOC ..:       3.85
+  Max Function eLOC .....:         12  Average Function eLOC .:       2.81
+  Max Function lLOC .....:          5  Average Function lLOC .:       1.23
+         ------     -----     -----     ------     ------     -----       
+  Max Function Parameters:          1  Avg Function Parameters:       0.27
+  Max Function Returns ..:          1  Avg Function Returns ..:       1.00
+  Max Interface Complex. :          2  Avg Interface Complex. :       1.27
+  Max Cyclomatic Complex.:          2  Avg Cyclomatic Complex.:       1.04
+  Max Total Complexity ..:          3  Avg Total Complexity ..:       2.31
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c.java
+
+
+  ------------------------------------------------------------------------
+
+                     ~~ Project Analysis For 3 Files ~~
+
+  ------------------------------------------------------------------------
+
+                         ~~ Total Project Summary ~~
+
+  LOC 564      eLOC 428      lLOC 246      Comment 162      Lines      850
+  Average per File, metric/3 files
+  LOC 188      eLOC 142      lLOC 82       Comment 54       Lines      283
+
+  ------------------------------------------------------------------------
+
+                      ~~ Project Functional Metrics ~~
+
+  Function: com.igormaznitsa.jcp.InfoHelper.InfoHelper
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 2        eLOC 1        lLOC 0        Comment 0        Lines        2
+
+  Function: com.igormaznitsa.jcp.InfoHelper.getVersion
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.InfoHelper.getCopyright
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.InfoHelper.getSite
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.InfoHelper.getProductName
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeTextForHelpInfo
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 6       Total        7
+  LOC 42       eLOC 36       lLOC 25       Comment 0        Lines       46
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeSpecialVariableReference
+  Parameters: (final JCPSpecialVariableProcessor.NameReferencePair p)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        5
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeCommandLineKeyReference
+  Parameters: (final CommandLineHandler handler)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        5
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeDirectiveReference
+  Parameters: (final AbstractDirectiveHandler directive)
+  Complexity   Param 1       Return 1      Cyclo Vg 6       Total        8
+  LOC 17       eLOC 14       lLOC 11       Comment 0        Lines       18
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeSpecialDirectiveReference
+  Parameters: (final String name, final String reference)
+  Complexity   Param 2       Return 1      Cyclo Vg 1       Total        4
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeOperatorReference
+  Parameters: (final AbstractOperator operator)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        5
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeFunctionReference
+  Parameters: (final AbstractFunction func)
+  Complexity   Param 1       Return 1      Cyclo Vg 5       Total        7
+  LOC 23       eLOC 18       lLOC 13       Comment 0        Lines       25
+
+  Function: com.igormaznitsa.jcp.InfoHelper.makeColumns
+  Parameters: (final String name, final String reference, final int firstC
+              olumnWidth)
+  Complexity   Param 3       Return 1      Cyclo Vg 2       Total        6
+  LOC 9        eLOC 7        lLOC 6        Comment 0        Lines        9
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.PreprocessingStatistics.Pr
+            eprocessingStatistics
+  Parameters: (final int numberOfPreprocessed, final int numberOfCopied)
+  Complexity   Param 2       Return 1      Cyclo Vg 1       Total        4
+  LOC 4        eLOC 3        lLOC 2        Comment 0        Lines        4
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.PreprocessingStatistics.ge
+            tNumberOfCopied
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.PreprocessingStatistics.ge
+            tNumberOfPreprocessed
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.getCommandLineHandlers
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.getContext
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.JCPreprocessor
+  Parameters: (final PreprocessorContext context)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 4        eLOC 3        lLOC 2        Comment 0        Lines        4
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.execute
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 2       Total        3
+  LOC 16       eLOC 14       lLOC 12       Comment 0        Lines       21
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.processFileExclusion
+  Parameters: (final List<PreprocessingState.ExcludeIfInfo> foundExcludeIf
+              )
+  Complexity   Param 1       Return 1      Cyclo Vg 4       Total        6
+  LOC 18       eLOC 14       lLOC 7        Comment 0        Lines       23
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.val.asBoolean
+  Parameters: ())
+  Complexity   Param 1       Return 1      Cyclo Vg 2       Total        4
+  LOC 6        eLOC 4        lLOC 2        Comment 0        Lines        6
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.processGlobalDirectives
+  Parameters: (final Collection<FileInfoContainer> files)
+  Complexity   Param 1       Return 1      Cyclo Vg 5       Total        7
+  LOC 14       eLOC 10       lLOC 5        Comment 0        Lines       14
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.preprocessFiles
+  Parameters: (final Collection<FileInfoContainer> files)
+  Complexity   Param 1       Return 1      Cyclo Vg 11      Total       13
+  LOC 40       eLOC 28       lLOC 15       Comment 1        Lines       45
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.createDestinationDirectory
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 6       Total        7
+  LOC 19       eLOC 12       lLOC 5        Comment 0        Lines       21
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.findAllFilesToBePreprocess
+            ed
+  Parameters: (final File[] srcDirs)
+  Complexity   Param 1       Return 1      Cyclo Vg 4       Total        6
+  LOC 17       eLOC 13       lLOC 7        Comment 1        Lines       24
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.findAllFiles
+  Parameters: (final File dir)
+  Complexity   Param 1       Return 1      Cyclo Vg 3       Total        5
+  LOC 13       eLOC 9        lLOC 4        Comment 0        Lines       13
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.main
+  Parameters: (final String... args)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 22       eLOC 17       lLOC 12       Comment 0        Lines       28
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.processCommandString
+  Parameters: (final PreprocessorContext context, final String[] originalS
+              trings, final String[] normalizedStrings)
+  Complexity   Param 3       Return 1      Cyclo Vg 7       Total       11
+  LOC 25       eLOC 19       lLOC 13       Comment 0        Lines       28
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.processCfgFiles
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 14      Total       15
+  LOC 56       eLOC 38       lLOC 17       Comment 3        Lines       65
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.printHeader
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        5
+
+  Function: com.igormaznitsa.jcp.JCPreprocessor.help
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 2       Total        3
+  LOC 6        eLOC 4        lLOC 1        Comment 0        Lines        7
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.JavaClassOrIn
+            terface
+  Parameters: (ClassOrInterfaceDeclaration typeDec)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 7        eLOC 6        lLOC 5        Comment 0        Lines        7
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.extractFullDe
+            claration
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 2       Total        3
+  LOC 14       eLOC 12       lLOC 3        Comment 3        Lines       15
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getModifiers
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.hasConstructo
+            rs
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.hasMethods
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.hasEnums
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.hasFields
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.hasNestedClas
+            ses
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.hasAnnotation
+            s
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.extractDeclar
+            ation
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 3        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getDeclaratio
+            n
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.addConstructo
+            r
+  Parameters: (JavaConstructor constructor)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.addField
+  Parameters: (JavaField field)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.addEnum
+  Parameters: (JavaEnum javaEnum)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.addMethod
+  Parameters: (JavaMethod method)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.addAnnotation
+  Parameters: (JavaAnnotation annotation)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.addNestedClas
+            sOrInterface
+  Parameters: (JavaClassOrInterface classOrInterface)
+  Complexity   Param 1       Return 1      Cyclo Vg 1       Total        3
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getMethods
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getConstructo
+            rs
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getEnums
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getFields
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getAnnotation
+            s
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getNestedClas
+            ses
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getNestedClas
+            sesAsArrayList
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.getType
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.facetoe.jreader.parsers.JavaClassOrInterface.toString
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 10       eLOC 9        lLOC 1        Comment 0        Lines       10
+
+  Total: Functions  
+  LOC 500      eLOC 371      lLOC 212      InCmp 88       CycloCmp     123
+  Function Points         FP(LOC) 9.4     FP(eLOC) 7.0    FP(lLOC)     4.0
+
+  ------------------------------------------------------------------------
+
+                      ~~ Project Functional Analysis ~~
+
+  Total Functions .......:         58  Total Physical Lines ..:        551
+  Total LOC .............:        500  Total Function Pts LOC :        9.4
+  Total eLOC ............:        371  Total Function Pts eLOC:        7.0
+  Total lLOC.............:        212  Total Function Pts lLOC:        4.0
+  Total Cyclomatic Comp. :        123  Total Interface Comp. .:         88
+  Total Parameters ......:         30  Total Return Points ...:         58
+  Total Comment Lines ...:         76  Total Blank Lines .....:         46
+         ------     -----     -----     ------     ------     -----       
+  Avg Physical Lines ....:       9.50
+  Avg LOC ...............:       8.62  Avg eLOC ..............:       6.40
+  Avg lLOC ..............:       3.66  Avg Cyclomatic Comp. ..:       2.12
+  Avg Interface Comp. ...:       1.52  Avg Parameters ........:       0.52
+  Avg Return Points .....:       1.00  Avg Comment Lines .....:       1.31
+         ------     -----     -----     ------     ------     -----       
+  Max LOC ...............:         56
+  Max eLOC ..............:         38  Max lLOC ..............:         25
+  Max Cyclomatic Comp. ..:         14  Max Interface Comp. ...:          4
+  Max Parameters ........:          3  Max Return Points .....:          1
+  Max Comment Lines .....:          5  Max Total Lines .......:         65
+         ------     -----     -----     ------     ------     -----       
+  Min LOC ...............:          2
+  Min eLOC ..............:          1  Min lLOC ..............:          0
+  Min Cyclomatic Comp. ..:          1  Min Interface Comp. ...:          1
+  Min Parameters ........:          0  Min Return Points .....:          1
+  Min Comment Lines .....:          0  Min Total Lines .......:          2
+
+  ------------------------------------------------------------------------
+
+                             ~~ File Summary ~~
+
+  C Source Files *.c ....:          0  C/C++ Include Files *.h:          0
+  C++ Source Files *.c* .:          0  C++ Include Files *.h* :          0
+  C# Source Files *.cs ..:          0  Java Source File *.jav*:          3
+  Other File Count ......:          0  Total File Count ......:          3
+
+
+          Shareware evaluation licenses process only 20 files.
+          Paid licenses enable processing for an unlimited number of files.
+
+  ________________________________________________________________________
+
+                      Report Banner - Edit rsm.cfg File
