@@ -1,0 +1,564 @@
+                      Report Banner - Edit rsm.cfg File
+
+           Resource Standard Metrics (TM) for C, C++, C# and Java
+                   Version 7.75 - mSquaredTechnologies.com
+
+  License Type: Shareware Evaluation License
+  Licensed To : Shareware End User - Distribute Freely
+  License No. : SW1380                          License Date: Dec 05, 1998
+  Build Date  : Sep  2 2009                         Run Date: Apr 16, 2020
+  (C)1996-2009 M Squared Technologies LLC
+  ________________________________________________________________________
+
+  License File: C:\Program Files (x86)\MSquared\M2 RSM\rsm.lic
+  Config. File: C:\Program Files (x86)\MSquared\M2 RSM\rsm.cfg
+  Command Line: -OC:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566
+                \src_output_comment.txt -Ec -FC:\Users\nayan\M2 RSM Wizard
+                \input\rsm_file_list.lst 
+                        ~~ Comment Extraction Mode ~~
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\ant\PreprocessTask.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      36: The class implements an ANT task to allow calls for preprocessing from ANT
+      37: build scripts. Also it allows to out messages from preprocessor directives
+      38: into the ANT log and read ANT properties as global variables (with the "ant
+      39: prefix
+      41: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+      46: Inside class describes a "cfgfile" item, it has the only attribute "file
+      47: the attribute must be defined
+      49: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+      65: Inside class describes a "global" item, it describes a global variable
+      66: which will be added into the preprocessor context It has attributes "name
+      67: and "value", be careful in the value attribute usage because you have to
+      68: use "&quot;" instead of \" symbol inside string values
+      70: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+     114: Set the "compareDestination" attribute, it allows to turn on the mode to compare destination file content and to not override the file by generated one if there is the same content
+     116: param flag true if to compare destination file content, false otherwise
+     123: Set the "source" attribute, it allows to define the source directory to be
+     124: preprocessed
+     126: param src a directory to be used as the source one, must not be null
+     133: Set the "careforlastnextline" attribute, it allows to make precise processing of last next line char
+     135: param flag shows to turn on or turn off the mode
+     142: Set the "destination" attribute, it allows to define the destination
+     143: directory where the preprocessed files will be placed in
+     145: param dst a directory to be used as the destination one, must not be null
+     152: Set the "inCharset" attribute, it allows to define the text encoding for
+     153: the reading text files
+     155: param charSet the character set to be used to decode read texts, must not
+     156: be null
+     163: Set the "outCharset" attribute, it allows to define the text encoding for
+     164: the writing text files
+     166: param charSet the character set to be used to encode written texts, must
+     167: not be null
+     174: Set the "excluded" attribute, it defines the excluded file extensions which
+     175: will be ignored by the preprocessor in its work (also those files will not
+     176: be copied
+     178: param ext the list of ignored file extensions, must not be null
+     185: Set the "processing" attribute, it defines the file extensions to be
+     186: processed
+     188: param ext the list of file extensions which should be preprocessed, must
+     189: not be null
+     196: Set the "clear" attribute, it is a boolean attribute allows to make the
+     197: preprocessor to clear the destination directory before its work
+     199: param flag true if the destination directory must be cleared before
+     200: preprocessing, otherwise false
+     207: Set the "removeComments" attribute, it is a boolean attribute allows to
+     208: make the preprocessor to remove all Java-like comments from the result
+     209: files
+     211: param flag true if the result file must be cleared from comments
+     212: otherwise false
+     219: Set the "verbose" attribute, it is a boolean attribute allows to set the
+     220: verbose level of preprocessor messages
+     222: param flag true if the verbose level must be set, otherwise false
+     229: Set the "keepLines" attribute, it is a boolean attribute to keep
+     230: non-executing lines as commented ones in the output
+     232: param flag true if preprocessor should keep the lines as commented ones
+     233: false otherwise
+     240: Set the "disableOut" attribute, it is a boolean attribute allows to disable
+     241: any output operations into the destination directory
+     243: param flag true if the output operations must be disabled, otherwise false
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\ant\PreprocessTask.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\CareForLastNextLineCharHandler.j
+        ava
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\CareForLastNextLin
+               eCharHandler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\ClearDstDirectoryHandler.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      21: The handler to process the key signals that the preprocessor must clear the
+      22: destination directory before preprocessing
+      24: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\ClearDstDirectoryH
+               andler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\CommandLineHandler.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      21: The interface describes a command line key handler. It is not just a handler
+      22: but it will be called for all met keys to recognize one to be processed
+      24: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+      29: Get the key name for the handler
+      31: return the key name as a String, must not be null
+      36: Get the description of the key (it will be printed into the help text
+      38: return the description as a String
+      43: Process a command line key
+      45: param key the command line key to be processed, must not be null
+      46: param context the preprocessor context, must not be null
+      47: return true if the key has been recognized and processed else false
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\CommandLineHandler
+               .java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\CompareDestinationContentHandler
+        .java
+  ________________________________________________________________________
+
+       2: Copyright 2015 Igor Maznitsa
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      21: the Handler processes command to disable overriding of existing file if content the same
+      23: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+      24: since 6.0.1
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\CompareDestination
+               ContentHandler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\DestinationDirectoryHandler.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      23: The handler for the output directory command line key
+      25: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\DestinationDirecto
+               ryHandler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\ExcludedFileExtensionsHandler.ja
+        va
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      23: The handler for the excluded extension list (with comma
+      25: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\ExcludedFileExtens
+               ionsHandler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\FileExtensionsHandler.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      23: The handler for the preprocessing file extension list (with comma
+      25: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\FileExtensionsHand
+               ler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\GlobalVariableDefiningFileHandle
+        r.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      24: The handler for '@' prefixed files in the command string
+      26: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\GlobalVariableDefi
+               ningFileHandler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\GlobalVariableHandler.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      24: The handler for global variables, it adds met global variables into the
+      25: inside storage
+      27: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\GlobalVariableHand
+               ler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\HelpHandler.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      22: The handler processes a help command from the command string
+      24: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\HelpHandler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\InCharsetHandler.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      23: To set the input text character encoding
+      25: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\InCharsetHandler.j
+               ava
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\KeepLineHandler.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      21: The handler processing the flag tells the preprocessor to be try to keep
+      22: non-executing lines of code as commented ones
+      24: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\KeepLineHandler.ja
+               va
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\OutCharsetHandler.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      23: To set the output text character encoding
+      25: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\OutCharsetHandler.
+               java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\RemoveCommentsHandler.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      21: The handler processing the flag to clear all sources in the destination
+      22: directory from inside comments
+      24: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\RemoveCommentsHand
+               ler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\SourceDirectoryHandler.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      23: The handler processing the key to set the source directory
+      25: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\SourceDirectoryHan
+               dler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\VerboseHandler.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      21: The handler processing the flag that the preprocessor to be verbose in its
+      22: messages and information
+      24: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\VerboseHandler.jav
+               a
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\containers\FileInfoContainer.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      32: The class is one from the main classes in the preprocessor because it
+      33: describes a preprocessing file and contains business logic for the process
+      35: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+      40: The source file for the container
+      45: The flag shows that the file should be just copied into the destination
+      46: place without any preprocessing
+      51: The flag shows that the file has been excluded from preprocessing and it
+      52: will not be preprocessed and copied
+      57: The destination directory for the file
+      62: The destination name for the file
+     184: Preprocess file, NB! it doesn't clear local variables automatically for
+     185: cloned contexts
+     187: param state the start preprocessing state, can be null
+     188: param context the preprocessor context, must not be null
+     189: return the state for the preprocessed file
+     190: throws IOException
+     191: throws PreprocessorException
+     194: do not clear local variables for cloned context to keep them in the new context
+     295: Output the tail of the string to the output stream without comments and macroses
+     306: Output the tail of the string to the output stream without comments
+     319: Just string
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\containers\FileInfoContain
+               er.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\containers\PreprocessingFlag.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      19: The enumeration contains flags describe inside special preprocessor states
+      21: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+      26: This flag shows that it is allowed to print texts into an output stream
+      30: This flag shows that we must comment the next line (one time flag
+      34: This flag shows that the current //#if construction in the passive state
+      38: This flag shows that //#break has been met
+      42: This flag shows that preprocessing must be ended on the next string
+      46: This flag allows to stop preprocessing immediately
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\containers\PreprocessingFl
+               ag.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\containers\TextFileDataContainer.java
+  ________________________________________________________________________
+
+       2: Copyright 2014 Igor Maznitsa (http://www.igormaznitsa.com
+       4: Licensed under the Apache License, Version 2.0 (the "License
+       5: you may not use this file except in compliance with the License
+       6: You may obtain a copy of the License at
+       8: http://www.apache.org/licenses/LICENSE-2.0
+      10: Unless required by applicable law or agreed to in writing, software
+      11: distributed under the License is distributed on an "AS IS" BASIS
+      12: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied
+      13: See the License for the specific language governing permissions and
+      14: limitations under the License
+      22: The class contains text data of a file and the string position index for the
+      23: file
+      25: author Igor Maznitsa (igor.maznitsa@igormaznitsa.com
+      34: Flag shows to save automatically buffers after file preprocessing end
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\containers\TextFileDataCon
+               tainer.java
+
+
+
+          Shareware evaluation licenses process only 20 files.
+          Paid licenses enable processing for an unlimited number of files.
+
+  ________________________________________________________________________
+
+                      Report Banner - Edit rsm.cfg File

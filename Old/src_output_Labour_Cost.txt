@@ -1,0 +1,1674 @@
+                      Report Banner - Edit rsm.cfg File
+
+           Resource Standard Metrics (TM) for C, C++, C# and Java
+                   Version 7.75 - mSquaredTechnologies.com
+
+  License Type: Shareware Evaluation License
+  Licensed To : Shareware End User - Distribute Freely
+  License No. : SW1380                          License Date: Dec 05, 1998
+  Build Date  : Sep  2 2009                         Run Date: Apr 16, 2020
+  (C)1996-2009 M Squared Technologies LLC
+  ________________________________________________________________________
+
+  License File: C:\Program Files (x86)\MSquared\M2 RSM\rsm.lic
+  Config. File: C:\Program Files (x86)\MSquared\M2 RSM\rsm.cfg
+  Command Line: -OC:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566
+                \src_output.txt -e -FC:\Users\nayan\M2 RSM Wizard\input\rs
+                m_file_list.lst 
+                           ~~ Function Metrics ~~
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\ant\PreprocessTask.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.CfgFile.setFile
+  Parameters: (final File file)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.CfgFile.getFile
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.Global.setName
+  Parameters: (final String name)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.Global.getName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.Global.setValue
+  Parameters: (final String value)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.Global.getValue
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setCompareDestiation
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setSource
+  Parameters: (final File src)
+  LOC 3        eLOC 2        lLOC 1        Comment 6        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setCareForLastNextLine
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setDestination
+  Parameters: (final File dst)
+  LOC 3        eLOC 2        lLOC 1        Comment 6        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setInCharset
+  Parameters: (final String charSet)
+  LOC 3        eLOC 2        lLOC 1        Comment 7        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setOutCharset
+  Parameters: (final String charSet)
+  LOC 3        eLOC 2        lLOC 1        Comment 7        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setExcluded
+  Parameters: (final String ext)
+  LOC 3        eLOC 2        lLOC 1        Comment 7        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setProcessing
+  Parameters: (final String ext)
+  LOC 3        eLOC 2        lLOC 1        Comment 7        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setClear
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 7        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setRemoveComments
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 8        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setVerbose
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 6        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setKeepLines
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 7        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setDisableOut
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 6        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.createGlobal
+  Parameters: ()
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        5
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.createCfgFile
+  Parameters: ()
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        5
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.fillCfgFiles
+  Parameters: (final PreprocessorContext context)
+  LOC 10       eLOC 6        lLOC 1        Comment 0        Lines       10
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.fillGlobalVars
+  Parameters: (final PreprocessorContext context)
+  LOC 10       eLOC 6        lLOC 1        Comment 0        Lines       10
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.generatePreprocessorCo
+            ntext
+  Parameters: ()
+  LOC 37       eLOC 29       lLOC 21       Comment 0        Lines       47
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.execute
+  Parameters: ()
+  LOC 19       eLOC 14       lLOC 9        Comment 0        Lines       22
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.error
+  Parameters: (final String message)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.info
+  Parameters: (final String message)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.debug
+  Parameters: (final String message)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.warning
+  Parameters: (final String message)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.fillAntVariables
+  Parameters: ()
+  LOC 18       eLOC 13       lLOC 7        Comment 0        Lines       22
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.getVariableNames
+  Parameters: ()
+  LOC 10       eLOC 7        lLOC 4        Comment 0        Lines       12
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.getVariable
+  Parameters: (final String varName, final PreprocessorContext context)
+  LOC 10       eLOC 7        lLOC 4        Comment 0        Lines       11
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setVariable
+  Parameters: (final String varName, final Value value, final Preprocessor
+              Context context)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 246      eLOC 185      lLOC 113      Comment 121      Lines      429
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:         33
+  Total Function LOC.....:        196  Total Function Pts LOC :        4.6
+  Total Function eLOC....:        138  Total Function Pts eLOC:        3.5
+  Total Function lLOC....:         77  Total Function Pts lLOC:        2.1
+  Total Function Params .:         27  Total Function Return .:         33
+  Total Cyclo Complexity :         54  Total Function Complex.:        114
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         37  Average Function LOC ..:       5.94
+  Max Function eLOC .....:         29  Average Function eLOC .:       4.18
+  Max Function lLOC .....:         21  Average Function lLOC .:       2.33
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\ant\PreprocessTask.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\CareForLastNextLineCharHandler.j
+        ava
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.CareForLastNextLineCharHandler.ge
+            tDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.CareForLastNextLineCharHandler.pr
+            ocessCommandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 8        eLOC 6        lLOC 4        Comment 0        Lines       10
+
+  Function: com.igormaznitsa.jcp.cmdline.CareForLastNextLineCharHandler.ge
+            tKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 22       eLOC 17       lLOC 9        Comment 15       Lines       46
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         14  Total Function Pts LOC :        0.4
+  Total Function eLOC....:         10  Total Function Pts eLOC:        0.3
+  Total Function lLOC....:          6  Total Function Pts lLOC:        0.2
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          4  Total Function Complex.:          9
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:          8  Average Function LOC ..:       4.67
+  Max Function eLOC .....:          6  Average Function eLOC .:       3.33
+  Max Function lLOC .....:          4  Average Function lLOC .:       2.00
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\CareForLastNextLin
+               eCharHandler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\ClearDstDirectoryHandler.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.ClearDstDirectoryHandler.getDescr
+            iption
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.ClearDstDirectoryHandler.processC
+            ommandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 8        eLOC 6        lLOC 4        Comment 0        Lines        8
+
+  Function: com.igormaznitsa.jcp.cmdline.ClearDstDirectoryHandler.getKeyNa
+            me
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 22       eLOC 17       lLOC 9        Comment 21       Lines       50
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         14  Total Function Pts LOC :        0.4
+  Total Function eLOC....:         10  Total Function Pts eLOC:        0.3
+  Total Function lLOC....:          6  Total Function Pts lLOC:        0.2
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          4  Total Function Complex.:          9
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:          8  Average Function LOC ..:       4.67
+  Max Function eLOC .....:          6  Average Function eLOC .:       3.33
+  Max Function lLOC .....:          4  Average Function lLOC .:       2.00
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\ClearDstDirectoryH
+               andler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\CommandLineHandler.java
+  ________________________________________________________________________
+
+                          ~~ Total File Summary ~~
+
+  LOC 7        eLOC 6        lLOC 5        Comment 38       Lines       50
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\CommandLineHandler
+               .java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\CompareDestinationContentHandler
+        .java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.CompareDestinationContentHandler.
+            getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.CompareDestinationContentHandler.
+            getDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.CompareDestinationContentHandler.
+            processCommandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 8        eLOC 6        lLOC 4        Comment 0        Lines       10
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 22       eLOC 17       lLOC 9        Comment 21       Lines       52
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         14  Total Function Pts LOC :        0.4
+  Total Function eLOC....:         10  Total Function Pts eLOC:        0.3
+  Total Function lLOC....:          6  Total Function Pts lLOC:        0.2
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          4  Total Function Complex.:          9
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:          8  Average Function LOC ..:       4.67
+  Max Function eLOC .....:          6  Average Function eLOC .:       3.33
+  Max Function lLOC .....:          4  Average Function lLOC .:       2.00
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\CompareDestination
+               ContentHandler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\DestinationDirectoryHandler.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.DestinationDirectoryHandler.getDe
+            scription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.DestinationDirectoryHandler.proce
+            ssCommandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 13       eLOC 9        lLOC 5        Comment 0        Lines       15
+
+  Function: com.igormaznitsa.jcp.cmdline.DestinationDirectoryHandler.getKe
+            yName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 29       eLOC 22       lLOC 12       Comment 20       Lines       57
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         19  Total Function Pts LOC :        0.5
+  Total Function eLOC....:         13  Total Function Pts eLOC:        0.4
+  Total Function lLOC....:          7  Total Function Pts lLOC:        0.2
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          7  Total Function Complex.:         12
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         13  Average Function LOC ..:       6.33
+  Max Function eLOC .....:          9  Average Function eLOC .:       4.33
+  Max Function lLOC .....:          5  Average Function lLOC .:       2.33
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\DestinationDirecto
+               ryHandler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\ExcludedFileExtensionsHandler.ja
+        va
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.ExcludedFileExtensionsHandler.get
+            Description
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.ExcludedFileExtensionsHandler.pro
+            cessCommandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 13       eLOC 9        lLOC 5        Comment 0        Lines       14
+
+  Function: com.igormaznitsa.jcp.cmdline.ExcludedFileExtensionsHandler.get
+            KeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 29       eLOC 22       lLOC 12       Comment 20       Lines       56
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         19  Total Function Pts LOC :        0.5
+  Total Function eLOC....:         13  Total Function Pts eLOC:        0.4
+  Total Function lLOC....:          7  Total Function Pts lLOC:        0.2
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          7  Total Function Complex.:         12
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         13  Average Function LOC ..:       6.33
+  Max Function eLOC .....:          9  Average Function eLOC .:       4.33
+  Max Function lLOC .....:          5  Average Function lLOC .:       2.33
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\ExcludedFileExtens
+               ionsHandler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\FileExtensionsHandler.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.FileExtensionsHandler.getDescript
+            ion
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.FileExtensionsHandler.processComm
+            andLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 13       eLOC 9        lLOC 5        Comment 0        Lines       16
+
+  Function: com.igormaznitsa.jcp.cmdline.FileExtensionsHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 29       eLOC 22       lLOC 12       Comment 20       Lines       58
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         19  Total Function Pts LOC :        0.5
+  Total Function eLOC....:         13  Total Function Pts eLOC:        0.4
+  Total Function lLOC....:          7  Total Function Pts lLOC:        0.2
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          7  Total Function Complex.:         12
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         13  Average Function LOC ..:       6.33
+  Max Function eLOC .....:          9  Average Function eLOC .:       4.33
+  Max Function lLOC .....:          5  Average Function lLOC .:       2.33
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\FileExtensionsHand
+               ler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\GlobalVariableDefiningFileHandle
+        r.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.GlobalVariableDefiningFileHandler
+            .getDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.GlobalVariableDefiningFileHandler
+            .processCommandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 38       eLOC 27       lLOC 16       Comment 0        Lines       47
+
+  Function: com.igormaznitsa.jcp.cmdline.GlobalVariableDefiningFileHandler
+            .getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 55       eLOC 41       lLOC 24       Comment 20       Lines       90
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         44  Total Function Pts LOC :        1.0
+  Total Function eLOC....:         31  Total Function Pts eLOC:        0.8
+  Total Function lLOC....:         18  Total Function Pts lLOC:        0.5
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :         12  Total Function Complex.:         17
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         38  Average Function LOC ..:      14.67
+  Max Function eLOC .....:         27  Average Function eLOC .:      10.33
+  Max Function lLOC .....:         16  Average Function lLOC .:       6.00
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\GlobalVariableDefi
+               ningFileHandler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\GlobalVariableHandler.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.GlobalVariableHandler.getDescript
+            ion
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.GlobalVariableHandler.processComm
+            andLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 21       eLOC 16       lLOC 11       Comment 0        Lines       28
+
+  Function: com.igormaznitsa.jcp.cmdline.GlobalVariableHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 38       eLOC 30       lLOC 19       Comment 21       Lines       72
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         27  Total Function Pts LOC :        0.7
+  Total Function eLOC....:         20  Total Function Pts eLOC:        0.6
+  Total Function lLOC....:         13  Total Function Pts lLOC:        0.4
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          9  Total Function Complex.:         14
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         21  Average Function LOC ..:       9.00
+  Max Function eLOC .....:         16  Average Function eLOC .:       6.67
+  Max Function lLOC .....:         11  Average Function lLOC .:       4.33
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\GlobalVariableHand
+               ler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\HelpHandler.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.HelpHandler.getDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.HelpHandler.processCommandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 13       eLOC 9        lLOC 4        Comment 0        Lines       15
+
+  Function: com.igormaznitsa.jcp.cmdline.HelpHandler.getKeyName
+  Parameters: ()
+  LOC 10       eLOC 7        lLOC 5        Comment 0        Lines       10
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 35       eLOC 26       lLOC 14       Comment 20       Lines       63
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         26  Total Function Pts LOC :        0.7
+  Total Function eLOC....:         18  Total Function Pts eLOC:        0.5
+  Total Function lLOC....:         10  Total Function Pts lLOC:        0.3
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          9  Total Function Complex.:         14
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         13  Average Function LOC ..:       8.67
+  Max Function eLOC .....:          9  Average Function eLOC .:       6.00
+  Max Function lLOC .....:          5  Average Function lLOC .:       3.33
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\HelpHandler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\InCharsetHandler.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.InCharsetHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.InCharsetHandler.getDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.InCharsetHandler.processCommandLi
+            neKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 13       eLOC 9        lLOC 5        Comment 0        Lines       16
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 29       eLOC 22       lLOC 12       Comment 20       Lines       58
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         19  Total Function Pts LOC :        0.5
+  Total Function eLOC....:         13  Total Function Pts eLOC:        0.4
+  Total Function lLOC....:          7  Total Function Pts lLOC:        0.2
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          6  Total Function Complex.:         11
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         13  Average Function LOC ..:       6.33
+  Max Function eLOC .....:          9  Average Function eLOC .:       4.33
+  Max Function lLOC .....:          5  Average Function lLOC .:       2.33
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\InCharsetHandler.j
+               ava
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\KeepLineHandler.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.KeepLineHandler.getDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.KeepLineHandler.processCommandLin
+            eKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 8        eLOC 6        lLOC 4        Comment 0        Lines       10
+
+  Function: com.igormaznitsa.jcp.cmdline.KeepLineHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 22       eLOC 17       lLOC 9        Comment 21       Lines       52
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         14  Total Function Pts LOC :        0.4
+  Total Function eLOC....:         10  Total Function Pts eLOC:        0.3
+  Total Function lLOC....:          6  Total Function Pts lLOC:        0.2
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          4  Total Function Complex.:          9
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:          8  Average Function LOC ..:       4.67
+  Max Function eLOC .....:          6  Average Function eLOC .:       3.33
+  Max Function lLOC .....:          4  Average Function lLOC .:       2.00
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\KeepLineHandler.ja
+               va
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\OutCharsetHandler.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.OutCharsetHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.OutCharsetHandler.getDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.OutCharsetHandler.processCommandL
+            ineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 11       eLOC 8        lLOC 5        Comment 0        Lines       14
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 27       eLOC 21       lLOC 12       Comment 20       Lines       56
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         17  Total Function Pts LOC :        0.5
+  Total Function eLOC....:         12  Total Function Pts eLOC:        0.4
+  Total Function lLOC....:          7  Total Function Pts lLOC:        0.2
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          6  Total Function Complex.:         11
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         11  Average Function LOC ..:       5.67
+  Max Function eLOC .....:          8  Average Function eLOC .:       4.00
+  Max Function lLOC .....:          5  Average Function lLOC .:       2.33
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\OutCharsetHandler.
+               java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\RemoveCommentsHandler.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.RemoveCommentsHandler.getDescript
+            ion
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.RemoveCommentsHandler.processComm
+            andLineKey
+  Parameters: (final String argument, final PreprocessorContext configurat
+              or)
+  LOC 8        eLOC 6        lLOC 4        Comment 0        Lines       10
+
+  Function: com.igormaznitsa.jcp.cmdline.RemoveCommentsHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 22       eLOC 17       lLOC 9        Comment 21       Lines       51
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         14  Total Function Pts LOC :        0.4
+  Total Function eLOC....:         10  Total Function Pts eLOC:        0.3
+  Total Function lLOC....:          6  Total Function Pts lLOC:        0.2
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          4  Total Function Complex.:          9
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:          8  Average Function LOC ..:       4.67
+  Max Function eLOC .....:          6  Average Function eLOC .:       3.33
+  Max Function lLOC .....:          4  Average Function lLOC .:       2.00
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\RemoveCommentsHand
+               ler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\SourceDirectoryHandler.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.SourceDirectoryHandler.getDescrip
+            tion
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.SourceDirectoryHandler.processCom
+            mandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 13       eLOC 9        lLOC 5        Comment 0        Lines       15
+
+  Function: com.igormaznitsa.jcp.cmdline.SourceDirectoryHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 29       eLOC 22       lLOC 12       Comment 20       Lines       57
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         19  Total Function Pts LOC :        0.5
+  Total Function eLOC....:         13  Total Function Pts eLOC:        0.4
+  Total Function lLOC....:          7  Total Function Pts lLOC:        0.2
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          7  Total Function Complex.:         12
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         13  Average Function LOC ..:       6.33
+  Max Function eLOC .....:          9  Average Function eLOC .:       4.33
+  Max Function lLOC .....:          5  Average Function lLOC .:       2.33
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\SourceDirectoryHan
+               dler.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\VerboseHandler.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.cmdline.VerboseHandler.getDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.VerboseHandler.processCommandLine
+            Key
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 8        eLOC 6        lLOC 4        Comment 0        Lines       10
+
+  Function: com.igormaznitsa.jcp.cmdline.VerboseHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 22       eLOC 17       lLOC 9        Comment 21       Lines       52
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         14  Total Function Pts LOC :        0.4
+  Total Function eLOC....:         10  Total Function Pts eLOC:        0.3
+  Total Function lLOC....:          6  Total Function Pts lLOC:        0.2
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          4  Total Function Complex.:          9
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:          8  Average Function LOC ..:       4.67
+  Max Function eLOC .....:          6  Average Function eLOC .:       3.33
+  Max Function lLOC .....:          4  Average Function lLOC .:       2.00
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\cmdline\VerboseHandler.jav
+               a
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\containers\FileInfoContainer.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.getSourceFil
+            e
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.isExcludedFr
+            omPreprocessing
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.isForCopyOnl
+            y
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.getDestinati
+            onDir
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.getDestinati
+            onName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.FileInfoCont
+            ainer
+  Parameters: (final File srcFile, final String dstFileName, final boolean
+               copyOnly)
+  LOC 19       eLOC 15       lLOC 11       Comment 0        Lines       22
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.getDestinati
+            onFilePath
+  Parameters: ()
+  LOC 7        eLOC 5        lLOC 3        Comment 0        Lines        8
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.toString
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.processGloba
+            lDirectives
+  Parameters: (final PreprocessingState state, final PreprocessorContext c
+              ontext)
+  LOC 49       eLOC 36       lLOC 17       Comment 0        Lines       56
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.preprocessFi
+            le
+  Parameters: (final PreprocessingState state, final PreprocessorContext c
+              ontext)
+  LOC 137      eLOC 98       lLOC 55       Comment 14       Lines      164
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.!context.isF
+            ileOutputDisabled
+  Parameters: () && lastTextFileDataContainer != null && lastTextFileDataC
+              ontainer.isAutoFlush())
+  LOC 7        eLOC 5        lLOC 3        Comment 0        Lines        8
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.processStrin
+            gForTailRemover
+  Parameters: (final String str)
+  LOC 7        eLOC 5        lLOC 3        Comment 0        Lines        7
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.checkDirecti
+            veArgumentRoughly
+  Parameters: (final AbstractDirectiveHandler directive, final String rest
+              )
+  LOC 32       eLOC 24       lLOC 15       Comment 0        Lines       35
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.processDirec
+            tive
+  Parameters: (final PreprocessingState state, final String directiveStrin
+              g, final PreprocessorContext context, final boolean firstPas
+              s)
+  LOC 25       eLOC 17       lLOC 8        Comment 0        Lines       28
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.setDestinati
+            onDir
+  Parameters: (final String destDir)
+  LOC 4        eLOC 3        lLOC 2        Comment 0        Lines        4
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.setDestinati
+            onName
+  Parameters: (final String destName)
+  LOC 4        eLOC 3        lLOC 2        Comment 0        Lines        4
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.setExcluded
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 342      eLOC 251      lLOC 148      Comment 52       Lines      460
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:         18
+  Total Function LOC.....:        312  Total Function Pts LOC :        6.5
+  Total Function eLOC....:        225  Total Function Pts eLOC:        4.7
+  Total Function lLOC....:        126  Total Function Pts lLOC:        2.8
+  Total Function Params .:         18  Total Function Return .:         20
+  Total Cyclo Complexity :         87  Total Function Complex.:        125
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:        137  Average Function LOC ..:      17.33
+  Max Function eLOC .....:         98  Average Function eLOC .:      12.50
+  Max Function lLOC .....:         55  Average Function lLOC .:       7.00
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\containers\FileInfoContain
+               er.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\containers\PreprocessingFlag.java
+  ________________________________________________________________________
+
+                          ~~ Total File Summary ~~
+
+  LOC 9        eLOC 8        lLOC 1        Comment 38       Lines       49
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\containers\PreprocessingFl
+               ag.java
+
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\containers\TextFileDataContainer.java
+  ________________________________________________________________________
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.disableA
+            utoFlush
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.isAutoFl
+            ush
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.getText
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.getFile
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.reset
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.isPresen
+            tedNextLineOnReadString
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.nextLine
+  Parameters: ()
+  LOC 8        eLOC 5        lLOC 2        Comment 0        Lines        8
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.setNextS
+            tringIndex
+  Parameters: (final int index)
+  LOC 6        eLOC 4        lLOC 2        Comment 0        Lines        6
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.getLastR
+            eadStringIndex
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.getNextS
+            tringIndex
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.TextFile
+            DataContainer
+  Parameters: (final TextFileDataContainer item, final int stringIndex)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.TextFile
+            DataContainer
+  Parameters: (final File currentFile, final String[] text, final boolean 
+              fileEndedByNextLine, final int stringIndex)
+  LOC 8        eLOC 7        lLOC 6        Comment 0        Lines        8
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.hashCode
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.equals
+  Parameters: (final Object that)
+  LOC 13       eLOC 9        lLOC 5        Comment 0        Lines       15
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 77       eLOC 56       lLOC 33       Comment 24       Lines      121
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:         14
+  Total Function LOC.....:         65  Total Function Pts LOC :        1.5
+  Total Function eLOC....:         45  Total Function Pts eLOC:        1.1
+  Total Function lLOC....:         25  Total Function Pts lLOC:        0.6
+  Total Function Params .:          8  Total Function Return .:         18
+  Total Cyclo Complexity :         22  Total Function Complex.:         48
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         13  Average Function LOC ..:       4.64
+  Max Function eLOC .....:          9  Average Function eLOC .:       3.21
+  Max Function lLOC .....:          6  Average Function lLOC .:       1.79
+  ________________________________________________________________________
+  End of File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\sr
+               c\main\java\com\igormaznitsa\jcp\containers\TextFileDataCon
+               tainer.java
+
+
+  ------------------------------------------------------------------------
+
+                     ~~ Project Analysis For 20 Files ~~
+
+  ------------------------------------------------------------------------
+
+                         ~~ Total Project Summary ~~
+
+  LOC 1113     eLOC 836      lLOC 483      Comment 574      Lines     1979
+  Average per File, metric/20 files
+  LOC 55       eLOC 41       lLOC 24       Comment 28       Lines       98
+
+  ------------------------------------------------------------------------
+
+                      ~~ Project Functional Metrics ~~
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.CfgFile.setFile
+  Parameters: (final File file)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.CfgFile.getFile
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.Global.setName
+  Parameters: (final String name)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.Global.getName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.Global.setValue
+  Parameters: (final String value)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.Global.getValue
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setCompareDestiation
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setSource
+  Parameters: (final File src)
+  LOC 3        eLOC 2        lLOC 1        Comment 6        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setCareForLastNextLine
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 5        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setDestination
+  Parameters: (final File dst)
+  LOC 3        eLOC 2        lLOC 1        Comment 6        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setInCharset
+  Parameters: (final String charSet)
+  LOC 3        eLOC 2        lLOC 1        Comment 7        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setOutCharset
+  Parameters: (final String charSet)
+  LOC 3        eLOC 2        lLOC 1        Comment 7        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setExcluded
+  Parameters: (final String ext)
+  LOC 3        eLOC 2        lLOC 1        Comment 7        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setProcessing
+  Parameters: (final String ext)
+  LOC 3        eLOC 2        lLOC 1        Comment 7        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setClear
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 7        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setRemoveComments
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 8        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setVerbose
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 6        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setKeepLines
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 7        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setDisableOut
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 6        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.createGlobal
+  Parameters: ()
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        5
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.createCfgFile
+  Parameters: ()
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        5
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.fillCfgFiles
+  Parameters: (final PreprocessorContext context)
+  LOC 10       eLOC 6        lLOC 1        Comment 0        Lines       10
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.fillGlobalVars
+  Parameters: (final PreprocessorContext context)
+  LOC 10       eLOC 6        lLOC 1        Comment 0        Lines       10
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.generatePreprocessorCo
+            ntext
+  Parameters: ()
+  LOC 37       eLOC 29       lLOC 21       Comment 0        Lines       47
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.execute
+  Parameters: ()
+  LOC 19       eLOC 14       lLOC 9        Comment 0        Lines       22
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.error
+  Parameters: (final String message)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.info
+  Parameters: (final String message)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.debug
+  Parameters: (final String message)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.warning
+  Parameters: (final String message)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.fillAntVariables
+  Parameters: ()
+  LOC 18       eLOC 13       lLOC 7        Comment 0        Lines       22
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.getVariableNames
+  Parameters: ()
+  LOC 10       eLOC 7        lLOC 4        Comment 0        Lines       12
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.getVariable
+  Parameters: (final String varName, final PreprocessorContext context)
+  LOC 10       eLOC 7        lLOC 4        Comment 0        Lines       11
+
+  Function: com.igormaznitsa.jcp.ant.PreprocessTask.setVariable
+  Parameters: (final String varName, final Value value, final Preprocessor
+              Context context)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.CareForLastNextLineCharHandler.ge
+            tDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.CareForLastNextLineCharHandler.pr
+            ocessCommandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 8        eLOC 6        lLOC 4        Comment 0        Lines       10
+
+  Function: com.igormaznitsa.jcp.cmdline.CareForLastNextLineCharHandler.ge
+            tKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.ClearDstDirectoryHandler.getDescr
+            iption
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.ClearDstDirectoryHandler.processC
+            ommandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 8        eLOC 6        lLOC 4        Comment 0        Lines        8
+
+  Function: com.igormaznitsa.jcp.cmdline.ClearDstDirectoryHandler.getKeyNa
+            me
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.CompareDestinationContentHandler.
+            getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.CompareDestinationContentHandler.
+            getDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.CompareDestinationContentHandler.
+            processCommandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 8        eLOC 6        lLOC 4        Comment 0        Lines       10
+
+  Function: com.igormaznitsa.jcp.cmdline.DestinationDirectoryHandler.getDe
+            scription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.DestinationDirectoryHandler.proce
+            ssCommandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 13       eLOC 9        lLOC 5        Comment 0        Lines       15
+
+  Function: com.igormaznitsa.jcp.cmdline.DestinationDirectoryHandler.getKe
+            yName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.ExcludedFileExtensionsHandler.get
+            Description
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.ExcludedFileExtensionsHandler.pro
+            cessCommandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 13       eLOC 9        lLOC 5        Comment 0        Lines       14
+
+  Function: com.igormaznitsa.jcp.cmdline.ExcludedFileExtensionsHandler.get
+            KeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.FileExtensionsHandler.getDescript
+            ion
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.FileExtensionsHandler.processComm
+            andLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 13       eLOC 9        lLOC 5        Comment 0        Lines       16
+
+  Function: com.igormaznitsa.jcp.cmdline.FileExtensionsHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.GlobalVariableDefiningFileHandler
+            .getDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.GlobalVariableDefiningFileHandler
+            .processCommandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 38       eLOC 27       lLOC 16       Comment 0        Lines       47
+
+  Function: com.igormaznitsa.jcp.cmdline.GlobalVariableDefiningFileHandler
+            .getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.GlobalVariableHandler.getDescript
+            ion
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.GlobalVariableHandler.processComm
+            andLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 21       eLOC 16       lLOC 11       Comment 0        Lines       28
+
+  Function: com.igormaznitsa.jcp.cmdline.GlobalVariableHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.HelpHandler.getDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.HelpHandler.processCommandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 13       eLOC 9        lLOC 4        Comment 0        Lines       15
+
+  Function: com.igormaznitsa.jcp.cmdline.HelpHandler.getKeyName
+  Parameters: ()
+  LOC 10       eLOC 7        lLOC 5        Comment 0        Lines       10
+
+  Function: com.igormaznitsa.jcp.cmdline.InCharsetHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.InCharsetHandler.getDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.InCharsetHandler.processCommandLi
+            neKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 13       eLOC 9        lLOC 5        Comment 0        Lines       16
+
+  Function: com.igormaznitsa.jcp.cmdline.KeepLineHandler.getDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.KeepLineHandler.processCommandLin
+            eKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 8        eLOC 6        lLOC 4        Comment 0        Lines       10
+
+  Function: com.igormaznitsa.jcp.cmdline.KeepLineHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.OutCharsetHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.OutCharsetHandler.getDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.OutCharsetHandler.processCommandL
+            ineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 11       eLOC 8        lLOC 5        Comment 0        Lines       14
+
+  Function: com.igormaznitsa.jcp.cmdline.RemoveCommentsHandler.getDescript
+            ion
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.RemoveCommentsHandler.processComm
+            andLineKey
+  Parameters: (final String argument, final PreprocessorContext configurat
+              or)
+  LOC 8        eLOC 6        lLOC 4        Comment 0        Lines       10
+
+  Function: com.igormaznitsa.jcp.cmdline.RemoveCommentsHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.SourceDirectoryHandler.getDescrip
+            tion
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.SourceDirectoryHandler.processCom
+            mandLineKey
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 13       eLOC 9        lLOC 5        Comment 0        Lines       15
+
+  Function: com.igormaznitsa.jcp.cmdline.SourceDirectoryHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.VerboseHandler.getDescription
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.cmdline.VerboseHandler.processCommandLine
+            Key
+  Parameters: (final String key, final PreprocessorContext context)
+  LOC 8        eLOC 6        lLOC 4        Comment 0        Lines       10
+
+  Function: com.igormaznitsa.jcp.cmdline.VerboseHandler.getKeyName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.getSourceFil
+            e
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.isExcludedFr
+            omPreprocessing
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.isForCopyOnl
+            y
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.getDestinati
+            onDir
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.getDestinati
+            onName
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.FileInfoCont
+            ainer
+  Parameters: (final File srcFile, final String dstFileName, final boolean
+               copyOnly)
+  LOC 19       eLOC 15       lLOC 11       Comment 0        Lines       22
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.getDestinati
+            onFilePath
+  Parameters: ()
+  LOC 7        eLOC 5        lLOC 3        Comment 0        Lines        8
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.toString
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.processGloba
+            lDirectives
+  Parameters: (final PreprocessingState state, final PreprocessorContext c
+              ontext)
+  LOC 49       eLOC 36       lLOC 17       Comment 0        Lines       56
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.preprocessFi
+            le
+  Parameters: (final PreprocessingState state, final PreprocessorContext c
+              ontext)
+  LOC 137      eLOC 98       lLOC 55       Comment 14       Lines      164
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.!context.isF
+            ileOutputDisabled
+  Parameters: () && lastTextFileDataContainer != null && lastTextFileDataC
+              ontainer.isAutoFlush())
+  LOC 7        eLOC 5        lLOC 3        Comment 0        Lines        8
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.processStrin
+            gForTailRemover
+  Parameters: (final String str)
+  LOC 7        eLOC 5        lLOC 3        Comment 0        Lines        7
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.checkDirecti
+            veArgumentRoughly
+  Parameters: (final AbstractDirectiveHandler directive, final String rest
+              )
+  LOC 32       eLOC 24       lLOC 15       Comment 0        Lines       35
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.processDirec
+            tive
+  Parameters: (final PreprocessingState state, final String directiveStrin
+              g, final PreprocessorContext context, final boolean firstPas
+              s)
+  LOC 25       eLOC 17       lLOC 8        Comment 0        Lines       28
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.setDestinati
+            onDir
+  Parameters: (final String destDir)
+  LOC 4        eLOC 3        lLOC 2        Comment 0        Lines        4
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.setDestinati
+            onName
+  Parameters: (final String destName)
+  LOC 4        eLOC 3        lLOC 2        Comment 0        Lines        4
+
+  Function: com.igormaznitsa.jcp.containers.FileInfoContainer.setExcluded
+  Parameters: (final boolean flag)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.disableA
+            utoFlush
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.isAutoFl
+            ush
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.getText
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.getFile
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.reset
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.isPresen
+            tedNextLineOnReadString
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.nextLine
+  Parameters: ()
+  LOC 8        eLOC 5        lLOC 2        Comment 0        Lines        8
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.setNextS
+            tringIndex
+  Parameters: (final int index)
+  LOC 6        eLOC 4        lLOC 2        Comment 0        Lines        6
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.getLastR
+            eadStringIndex
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.getNextS
+            tringIndex
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.TextFile
+            DataContainer
+  Parameters: (final TextFileDataContainer item, final int stringIndex)
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.TextFile
+            DataContainer
+  Parameters: (final File currentFile, final String[] text, final boolean 
+              fileEndedByNextLine, final int stringIndex)
+  LOC 8        eLOC 7        lLOC 6        Comment 0        Lines        8
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.hashCode
+  Parameters: ()
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: com.igormaznitsa.jcp.containers.TextFileDataContainer.equals
+  Parameters: (final Object that)
+  LOC 13       eLOC 9        lLOC 5        Comment 0        Lines       15
+
+  Total: Functions  
+  LOC 866      eLOC 614      lLOC 347      InCmp 199      CycloCmp     257
+  Function Points         FP(LOC) 16.3    FP(eLOC) 11.6   FP(lLOC)     6.5
+
+  ------------------------------------------------------------------------
+
+                      ~~ Project Functional Analysis ~~
+
+  Total Functions .......:        109  Total Physical Lines ..:        975
+  Total LOC .............:        866  Total Function Pts LOC :       16.3
+  Total eLOC ............:        614  Total Function Pts eLOC:       11.6
+  Total lLOC.............:        347  Total Function Pts lLOC:        6.5
+  Total Cyclomatic Comp. :        257  Total Interface Comp. .:        199
+  Total Parameters ......:         83  Total Return Points ...:        116
+  Total Comment Lines ...:         98  Total Blank Lines .....:        105
+         ------     -----     -----     ------     ------     -----       
+  Avg Physical Lines ....:       8.94
+  Avg LOC ...............:       7.94  Avg eLOC ..............:       5.63
+  Avg lLOC ..............:       3.18  Avg Cyclomatic Comp. ..:       2.36
+  Avg Interface Comp. ...:       1.83  Avg Parameters ........:       0.76
+  Avg Return Points .....:       1.06  Avg Comment Lines .....:       0.90
+         ------     -----     -----     ------     ------     -----       
+  Max LOC ...............:        137
+  Max eLOC ..............:         98  Max lLOC ..............:         55
+  Max Cyclomatic Comp. ..:         33  Max Interface Comp. ...:          7
+  Max Parameters ........:          4  Max Return Points .....:          4
+  Max Comment Lines .....:         14  Max Total Lines .......:        164
+         ------     -----     -----     ------     ------     -----       
+  Min LOC ...............:          3
+  Min eLOC ..............:          2  Min lLOC ..............:          1
+  Min Cyclomatic Comp. ..:          1  Min Interface Comp. ...:          1
+  Min Parameters ........:          0  Min Return Points .....:          1
+  Min Comment Lines .....:          0  Min Total Lines .......:          3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Estimation Analysis ~~
+
+                              Functional Basis
+
+  Total Function Count ..:        109
+  Total Function LOC ....:        866  Total Function eLOC ...:        614
+  Total Function lLOC ...:        347  Total Function Comments:         98
+  Total Func. Parameters :         83  Total Function Returns :        116
+  Total Cylco. Complexity:        257  Total Function Complex.:        456
+
+                           LOC Estimation Factors
+
+  Lines of Code, LOC, per Function ...........................:       7.94
+  Lines of Code, LOC, per Function Input Parameter ...........:      10.43
+  Lines of Code, LOC, per Function Return State ..............:       7.47
+  LOC per Function Interface Complexity (Parameters + Return) :       4.35
+  LOC per Function Cyclomatic Complexity .....................:       3.37
+  LOC per Function Complexity (Cyclomatic+Interface Complex.) :       2.32
+
+                           eLOC Estimation Factors
+
+  Effective Lines of Code, eLOC, per Function ................:       5.63
+  Effective Lines of Code, eLOC, per Function Input Parameter :       7.40
+  Effective Lines of Code, eLOC, per Function Return State ...:       5.29
+  eLOC per Function Interface Complexity (Parameters + Return):       3.09
+  eLOC per Function Cyclomatic Complexity ....................:       2.39
+  eLOC per Function Complexity (Cyclomatic+Interface Complex.):       1.65
+
+                           lLOC Estimation Factors
+
+  Logical Lines of Code, lLOC, per Function ..................:       3.18
+  Logical Lines of Code, lLOC, per Function Input Parameter ..:       4.18
+  Logical Lines of Code, lLOC, per Function Return State .....:       2.99
+  lLOC per Function Interface Complexity (Parameters + Return):       1.74
+  lLOC per Function Cyclomatic Complexity ....................:       1.35
+  lLOC per Function Complexity (Cyclomatic+Interface Complex.):       0.93
+
+  ------------------------------------------------------------------------
+
+                             ~~ File Summary ~~
+
+  C Source Files *.c ....:          0  C/C++ Include Files *.h:          0
+  C++ Source Files *.c* .:          0  C++ Include Files *.h* :          0
+  C# Source Files *.cs ..:          0  Java Source File *.jav*:         20
+  Other File Count ......:          0  Total File Count ......:         20
+
+
+          Shareware evaluation licenses process only 20 files.
+          Paid licenses enable processing for an unlimited number of files.
+
+  ________________________________________________________________________
+
+                      Report Banner - Edit rsm.cfg File

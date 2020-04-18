@@ -1,0 +1,126 @@
+                      Report Banner - Edit rsm.cfg File
+
+           Resource Standard Metrics (TM) for C, C++, C# and Java
+                   Version 7.75 - mSquaredTechnologies.com
+
+  License Type: Shareware Evaluation License
+  Licensed To : Shareware End User - Distribute Freely
+  License No. : SW1380                          License Date: Dec 05, 1998
+  Build Date  : Sep  2 2009                         Run Date: Apr 16, 2020
+  (C)1996-2009 M Squared Technologies LLC
+  ________________________________________________________________________
+
+  License File: C:\Program Files (x86)\MSquared\M2 RSM\rsm.lic
+  Config. File: C:\Program Files (x86)\MSquared\M2 RSM\rsm.cfg
+  Command Line: -OC:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566
+                \src_basic.txt -FC:\Users\nayan\M2 RSM Wizard\input\rsm_fi
+                le_list.lst 
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\ant\PreprocessTask.java
+  LOC 246      eLOC 185      lLOC 113      Comment 121      Lines      429
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\CareForLastNextLineCharHandler.j
+        ava
+  LOC 22       eLOC 17       lLOC 9        Comment 15       Lines       46
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\ClearDstDirectoryHandler.java
+  LOC 22       eLOC 17       lLOC 9        Comment 21       Lines       50
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\CommandLineHandler.java
+  LOC 7        eLOC 6        lLOC 5        Comment 38       Lines       50
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\CompareDestinationContentHandler
+        .java
+  LOC 22       eLOC 17       lLOC 9        Comment 21       Lines       52
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\DestinationDirectoryHandler.java
+  LOC 29       eLOC 22       lLOC 12       Comment 20       Lines       57
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\ExcludedFileExtensionsHandler.ja
+        va
+  LOC 29       eLOC 22       lLOC 12       Comment 20       Lines       56
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\FileExtensionsHandler.java
+  LOC 29       eLOC 22       lLOC 12       Comment 20       Lines       58
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\GlobalVariableDefiningFileHandle
+        r.java
+  LOC 55       eLOC 41       lLOC 24       Comment 20       Lines       90
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\GlobalVariableHandler.java
+  LOC 38       eLOC 30       lLOC 19       Comment 21       Lines       72
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\HelpHandler.java
+  LOC 35       eLOC 26       lLOC 14       Comment 20       Lines       63
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\InCharsetHandler.java
+  LOC 29       eLOC 22       lLOC 12       Comment 20       Lines       58
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\KeepLineHandler.java
+  LOC 22       eLOC 17       lLOC 9        Comment 21       Lines       52
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\OutCharsetHandler.java
+  LOC 27       eLOC 21       lLOC 12       Comment 20       Lines       56
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\RemoveCommentsHandler.java
+  LOC 22       eLOC 17       lLOC 9        Comment 21       Lines       51
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\SourceDirectoryHandler.java
+  LOC 29       eLOC 22       lLOC 12       Comment 20       Lines       57
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\cmdline\VerboseHandler.java
+  LOC 22       eLOC 17       lLOC 9        Comment 21       Lines       52
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\containers\FileInfoContainer.java
+  LOC 342      eLOC 251      lLOC 148      Comment 52       Lines      460
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\containers\PreprocessingFlag.java
+  LOC 9        eLOC 8        lLOC 1        Comment 38       Lines       49
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\src\main\
+        java\com\igormaznitsa\jcp\containers\TextFileDataContainer.java
+  LOC 77       eLOC 56       lLOC 33       Comment 24       Lines      121
+
+  ------------------------------------------------------------------------
+
+                     ~~ Project Analysis For 20 Files ~~
+
+  LOC 1113     eLOC 836      lLOC 483      Comment 574      Lines     1979
+  Average per File, metric/20 files
+  LOC 55       eLOC 41       lLOC 24       Comment 28       Lines       98
+
+  ------------------------------------------------------------------------
+
+                             ~~ File Summary ~~
+
+  C Source Files *.c ....:          0  C/C++ Include Files *.h:          0
+  C++ Source Files *.c* .:          0  C++ Include Files *.h* :          0
+  C# Source Files *.cs ..:          0  Java Source File *.jav*:         20
+  Other File Count ......:          0  Total File Count ......:         20
+
+
+          Shareware evaluation licenses process only 20 files.
+          Paid licenses enable processing for an unlimited number of files.
+
+  ________________________________________________________________________
+
+                      Report Banner - Edit rsm.cfg File

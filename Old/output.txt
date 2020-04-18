@@ -1,0 +1,46 @@
+                      Report Banner - Edit rsm.cfg File
+
+           Resource Standard Metrics (TM) for C, C++, C# and Java
+                   Version 7.75 - mSquaredTechnologies.com
+
+  License Type: Shareware Evaluation License
+  Licensed To : Shareware End User - Distribute Freely
+  License No. : SW1380                          License Date: Dec 05, 1998
+  Build Date  : Sep  2 2009                         Run Date: Apr 16, 2020
+  (C)1996-2009 M Squared Technologies LLC
+  ________________________________________________________________________
+
+  License File: C:\Program Files (x86)\MSquared\M2 RSM\rsm.lic
+  Config. File: C:\Program Files (x86)\MSquared\M2 RSM\rsm.cfg
+  Command Line: -OC:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566
+                \output.txt -FC:\Users\nayan\M2 RSM Wizard\input\rsm_file_
+                list.lst 
+
+  File: C:\Users\nayan\OneDrive\Documents\566\Homework 5 CSE 566\example.j
+        ava
+  LOC 314      eLOC 232      lLOC 126      Comment 26       Lines      402
+
+  ------------------------------------------------------------------------
+
+                     ~~ Project Analysis For 1 Files ~~
+
+  LOC 314      eLOC 232      lLOC 126      Comment 26       Lines      402
+  Average per File, metric/1 files
+  LOC 314      eLOC 232      lLOC 126      Comment 26       Lines      402
+
+  ------------------------------------------------------------------------
+
+                             ~~ File Summary ~~
+
+  C Source Files *.c ....:          0  C/C++ Include Files *.h:          0
+  C++ Source Files *.c* .:          0  C++ Include Files *.h* :          0
+  C# Source Files *.cs ..:          0  Java Source File *.jav*:          1
+  Other File Count ......:          0  Total File Count ......:          1
+
+
+          Shareware evaluation licenses process only 20 files.
+          Paid licenses enable processing for an unlimited number of files.
+
+  ________________________________________________________________________
+
+                      Report Banner - Edit rsm.cfg File
